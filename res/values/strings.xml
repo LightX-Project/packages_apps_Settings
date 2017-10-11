@@ -13649,4 +13649,9 @@
     <string name="legacy_wfd_video_mode_720p_60fps">720p 60fps</string>
     <string name="legacy_wfd_video_mode_1080p_30fps">1080p 30fps</string>
     <string name="legacy_wfd_video_mode_1080p_60fps">1080p 60fps</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
+    <string name="increasing_ring_min_volume_title">Start volume</string>
+    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
 </resources>
