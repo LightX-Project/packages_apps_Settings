@@ -30,6 +30,14 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
+    <!-- LightX-Project version -->
+    <Preference
+         android:key="lx_version"
+         android:title="@string/lx_version"
+         android:summary="@string/summary_placeholder"
+         settings:enableCopying="true"
+         settings:controller="com.android.settings.deviceinfo.firmwareversion.LXVersionPreferenceController"/>
+
     <!-- Security patch -->
     <Preference
         android:key="security_key"
