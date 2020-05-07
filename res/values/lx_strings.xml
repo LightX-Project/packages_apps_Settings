@@ -24,4 +24,10 @@
     <string name="device_part_title">Device features</string>
     <string name="device_part_summary">Device Speicific Features</string>
 
+    <!-- LightX-Project maintainer -->
+    <string name="maintainer">Maintainer</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Swipe to screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
 </resources>

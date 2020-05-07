@@ -38,6 +38,14 @@
          settings:enableCopying="true"
          settings:controller="com.android.settings.deviceinfo.firmwareversion.LXVersionPreferenceController"/>
 
+    <!-- LightX-Project maintainer -->
+    <Preference
+         android:key="maintainer"
+         android:title="@string/maintainer"
+         android:summary="@string/summary_placeholder"
+         settings:enableCopying="true"
+         settings:controller="com.android.settings.deviceinfo.firmwareversion.LXMaintainerPreferenceController"/>
+
     <!-- Security patch -->
     <Preference
         android:key="security_key"
