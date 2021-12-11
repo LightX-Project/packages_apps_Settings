@@ -115,4 +115,15 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="lockscreen_customization_category"
+        android:title="@string/lockscreen_customization_title"
+        android:order="1002">
+
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+	android:key="lockscreen_battery_info"
+        android:title="@string/lockscreen_battery_info_title"
+        android:summary="@string/lockscreen_battery_info_summary"
+        android:defaultValue="true" />
+
 </PreferenceScreen>
